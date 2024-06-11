@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const AgregarEnter=(callback,targetkey)=>{
+export const SubmitEnter=(callback,targetkey)=>{
  
     useEffect(()=>{
         const keypressHandler=(event)=>{

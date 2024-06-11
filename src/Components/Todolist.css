@@ -4,7 +4,7 @@
     color: grey;
     
 }
-.Titulo{
+.Title{
     font-size: 70px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:lighter;
@@ -43,7 +43,7 @@ ol {
 .endTodo{
     color: lightslategray;
 }
-#TareaInput{
+#TaskInput{
 
     height: 40px;
     width: 70%;
