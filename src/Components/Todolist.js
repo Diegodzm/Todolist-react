@@ -30,8 +30,8 @@ function Todolist() {
 
     }
     SubmitEnter(addTask, 'Enter')
-    return <div className='Page bg-light p-2'>
-        <p className="Title text-body-tertiary">todos</p>
+    return <div className='Page p-2'>
+        <p className="Title text-body-tertiary">to-dos</p>
         <div className='Todo border d-flex-block p-2 '>
             <div className="mx-auto ">
                 <input id='TaskInput' placeholder="Agregar Tarea" className=" border-0 float-start ms-3 mt-3 col-7 " type="text" value={newTask} onChange={handleInputchange} />
